@@ -9,27 +9,35 @@
 /* Begin PBXBuildFile section */
 		25460015275FE3EE00627860 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25460014275FE3EE00627860 /* AppDelegate.swift */; };
 		25460017275FE3EE00627860 /* DocumentBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25460016275FE3EE00627860 /* DocumentBrowserViewController.swift */; };
-		25460019275FE3EE00627860 /* DocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25460018275FE3EE00627860 /* DocumentViewController.swift */; };
-		2546001B275FE3EE00627860 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2546001A275FE3EE00627860 /* Document.swift */; };
 		2546001E275FE3EE00627860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2546001C275FE3EE00627860 /* Main.storyboard */; };
 		25460020275FE3EE00627860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2546001F275FE3EE00627860 /* Assets.xcassets */; };
 		25460023275FE3EE00627860 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25460021275FE3EE00627860 /* LaunchScreen.storyboard */; };
 		2546002C275FE40600627860 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2546002B275FE40600627860 /* Node.swift */; };
 		2546002E275FE46E00627860 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2546002D275FE46E00627860 /* LinkedList.swift */; };
+		254600312764C10F00627860 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254600302764C10F00627860 /* Stack.swift */; };
+		254600342764C85C00627860 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254600332764C85C00627860 /* Queue.swift */; };
+		254600372765260100627860 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254600362765260100627860 /* TreeNode.swift */; };
+		254600392767BCB900627860 /* BinaryNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254600382767BCB900627860 /* BinaryNode.swift */; };
+		2546003C2767C00F00627860 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2546003B2767C00F00627860 /* Map.swift */; };
+		2546003F2767C88600627860 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2546003E2767C88600627860 /* Heap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		25460011275FE3EE00627860 /* Algorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25460014275FE3EE00627860 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25460016275FE3EE00627860 /* DocumentBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentBrowserViewController.swift; sourceTree = "<group>"; };
-		25460018275FE3EE00627860 /* DocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewController.swift; sourceTree = "<group>"; };
-		2546001A275FE3EE00627860 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
 		2546001D275FE3EE00627860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2546001F275FE3EE00627860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25460022275FE3EE00627860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25460024275FE3EE00627860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2546002B275FE40600627860 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		2546002D275FE46E00627860 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		254600302764C10F00627860 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		254600332764C85C00627860 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		254600362765260100627860 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
+		254600382767BCB900627860 /* BinaryNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryNode.swift; sourceTree = "<group>"; };
+		2546003B2767C00F00627860 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		2546003E2767C88600627860 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +70,14 @@
 		25460013275FE3EE00627860 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				2546003D2767C66800627860 /* Heap */,
+				2546003A2767BFFD00627860 /* Hight-Order-Functions */,
+				254600352765258400627860 /* Trees */,
+				254600322764C5D300627860 /* Queues */,
+				2546002F2764C02800627860 /* Stack */,
 				2546002A275FE3FB00627860 /* LinkedList */,
 				25460014275FE3EE00627860 /* AppDelegate.swift */,
 				25460016275FE3EE00627860 /* DocumentBrowserViewController.swift */,
-				25460018275FE3EE00627860 /* DocumentViewController.swift */,
-				2546001A275FE3EE00627860 /* Document.swift */,
 				2546001C275FE3EE00627860 /* Main.storyboard */,
 				2546001F275FE3EE00627860 /* Assets.xcassets */,
 				25460021275FE3EE00627860 /* LaunchScreen.storyboard */,
@@ -82,6 +93,47 @@
 				2546002D275FE46E00627860 /* LinkedList.swift */,
 			);
 			path = LinkedList;
+			sourceTree = "<group>";
+		};
+		2546002F2764C02800627860 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				254600302764C10F00627860 /* Stack.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		254600322764C5D300627860 /* Queues */ = {
+			isa = PBXGroup;
+			children = (
+				254600332764C85C00627860 /* Queue.swift */,
+			);
+			path = Queues;
+			sourceTree = "<group>";
+		};
+		254600352765258400627860 /* Trees */ = {
+			isa = PBXGroup;
+			children = (
+				254600362765260100627860 /* TreeNode.swift */,
+				254600382767BCB900627860 /* BinaryNode.swift */,
+			);
+			path = Trees;
+			sourceTree = "<group>";
+		};
+		2546003A2767BFFD00627860 /* Hight-Order-Functions */ = {
+			isa = PBXGroup;
+			children = (
+				2546003B2767C00F00627860 /* Map.swift */,
+			);
+			path = "Hight-Order-Functions";
+			sourceTree = "<group>";
+		};
+		2546003D2767C66800627860 /* Heap */ = {
+			isa = PBXGroup;
+			children = (
+				2546003E2767C88600627860 /* Heap.swift */,
+			);
+			path = Heap;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,11 +207,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				254600372765260100627860 /* TreeNode.swift in Sources */,
+				2546003F2767C88600627860 /* Heap.swift in Sources */,
 				2546002E275FE46E00627860 /* LinkedList.swift in Sources */,
-				2546001B275FE3EE00627860 /* Document.swift in Sources */,
+				254600342764C85C00627860 /* Queue.swift in Sources */,
+				254600312764C10F00627860 /* Stack.swift in Sources */,
 				2546002C275FE40600627860 /* Node.swift in Sources */,
-				25460019275FE3EE00627860 /* DocumentViewController.swift in Sources */,
 				25460017275FE3EE00627860 /* DocumentBrowserViewController.swift in Sources */,
+				254600392767BCB900627860 /* BinaryNode.swift in Sources */,
+				2546003C2767C00F00627860 /* Map.swift in Sources */,
 				25460015275FE3EE00627860 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
