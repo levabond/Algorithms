@@ -16,14 +16,15 @@ func map<T>(array: [T], event: (T) -> T) -> [T] {
     return result
 }
 
-func filter<T>(array: [T], event: (T) -> Bool) -> [T] {
-    var result: [T] = []
-    
-    for item in array {
-        if event(item) {
-            result.append(item)
+extension Array {
+    func myCompactMap<Transform>(transform: (Element) -> Transform?) -> [Transform] {
+        var result = [Transform]()
+        for item in self {
+            if let transform = transform(item) {
+                result.append(transform)
+            }
         }
+        
+        return result
     }
-    
-    return result
 }

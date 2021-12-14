@@ -20,6 +20,8 @@
 		254600392767BCB900627860 /* BinaryNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254600382767BCB900627860 /* BinaryNode.swift */; };
 		2546003C2767C00F00627860 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2546003B2767C00F00627860 /* Map.swift */; };
 		2546003F2767C88600627860 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2546003E2767C88600627860 /* Heap.swift */; };
+		254600422767CEB200627860 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254600412767CEB200627860 /* Filter.swift */; };
+		254600442767CF7F00627860 /* Reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254600432767CF7F00627860 /* Reduce.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		254600382767BCB900627860 /* BinaryNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryNode.swift; sourceTree = "<group>"; };
 		2546003B2767C00F00627860 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 		2546003E2767C88600627860 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		254600412767CEB200627860 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		254600432767CF7F00627860 /* Reduce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reduce.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,12 +74,8 @@
 		25460013275FE3EE00627860 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
-				2546003D2767C66800627860 /* Heap */,
 				2546003A2767BFFD00627860 /* Hight-Order-Functions */,
-				254600352765258400627860 /* Trees */,
-				254600322764C5D300627860 /* Queues */,
-				2546002F2764C02800627860 /* Stack */,
-				2546002A275FE3FB00627860 /* LinkedList */,
+				254600402767CD5E00627860 /* Structures */,
 				25460014275FE3EE00627860 /* AppDelegate.swift */,
 				25460016275FE3EE00627860 /* DocumentBrowserViewController.swift */,
 				2546001C275FE3EE00627860 /* Main.storyboard */,
@@ -124,6 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				2546003B2767C00F00627860 /* Map.swift */,
+				254600412767CEB200627860 /* Filter.swift */,
+				254600432767CF7F00627860 /* Reduce.swift */,
 			);
 			path = "Hight-Order-Functions";
 			sourceTree = "<group>";
@@ -134,6 +136,18 @@
 				2546003E2767C88600627860 /* Heap.swift */,
 			);
 			path = Heap;
+			sourceTree = "<group>";
+		};
+		254600402767CD5E00627860 /* Structures */ = {
+			isa = PBXGroup;
+			children = (
+				2546003D2767C66800627860 /* Heap */,
+				254600352765258400627860 /* Trees */,
+				254600322764C5D300627860 /* Queues */,
+				2546002F2764C02800627860 /* Stack */,
+				2546002A275FE3FB00627860 /* LinkedList */,
+			);
+			path = Structures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,10 +223,12 @@
 			files = (
 				254600372765260100627860 /* TreeNode.swift in Sources */,
 				2546003F2767C88600627860 /* Heap.swift in Sources */,
+				254600422767CEB200627860 /* Filter.swift in Sources */,
 				2546002E275FE46E00627860 /* LinkedList.swift in Sources */,
 				254600342764C85C00627860 /* Queue.swift in Sources */,
 				254600312764C10F00627860 /* Stack.swift in Sources */,
 				2546002C275FE40600627860 /* Node.swift in Sources */,
+				254600442767CF7F00627860 /* Reduce.swift in Sources */,
 				25460017275FE3EE00627860 /* DocumentBrowserViewController.swift in Sources */,
 				254600392767BCB900627860 /* BinaryNode.swift in Sources */,
 				2546003C2767C00F00627860 /* Map.swift in Sources */,
