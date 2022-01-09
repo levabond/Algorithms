@@ -22,6 +22,9 @@
 		2546003F2767C88600627860 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2546003E2767C88600627860 /* Heap.swift */; };
 		254600422767CEB200627860 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254600412767CEB200627860 /* Filter.swift */; };
 		254600442767CF7F00627860 /* Reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254600432767CF7F00627860 /* Reduce.swift */; };
+		2546005D276F9D8B00627860 /* BubleSorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2546005C276F9D8B00627860 /* BubleSorting.swift */; };
+		2546005F276FAC2E00627860 /* SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2546005E276FAC2E00627860 /* SelectionSort.swift */; };
+		2546006D2774F3E300627860 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2546006C2774F3E300627860 /* MergeSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		2546003E2767C88600627860 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		254600412767CEB200627860 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 		254600432767CF7F00627860 /* Reduce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reduce.swift; sourceTree = "<group>"; };
+		2546005C276F9D8B00627860 /* BubleSorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubleSorting.swift; sourceTree = "<group>"; };
+		2546005E276FAC2E00627860 /* SelectionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionSort.swift; sourceTree = "<group>"; };
+		2546006C2774F3E300627860 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,7 @@
 		25460013275FE3EE00627860 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				2546005B276F9D7E00627860 /* Sorting */,
 				2546003A2767BFFD00627860 /* Hight-Order-Functions */,
 				254600402767CD5E00627860 /* Structures */,
 				25460014275FE3EE00627860 /* AppDelegate.swift */,
@@ -150,6 +157,16 @@
 			path = Structures;
 			sourceTree = "<group>";
 		};
+		2546005B276F9D7E00627860 /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				2546005C276F9D8B00627860 /* BubleSorting.swift */,
+				2546005E276FAC2E00627860 /* SelectionSort.swift */,
+				2546006C2774F3E300627860 /* MergeSort.swift */,
+			);
+			path = Sorting;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -223,16 +240,19 @@
 			files = (
 				254600372765260100627860 /* TreeNode.swift in Sources */,
 				2546003F2767C88600627860 /* Heap.swift in Sources */,
+				2546005F276FAC2E00627860 /* SelectionSort.swift in Sources */,
 				254600422767CEB200627860 /* Filter.swift in Sources */,
 				2546002E275FE46E00627860 /* LinkedList.swift in Sources */,
 				254600342764C85C00627860 /* Queue.swift in Sources */,
 				254600312764C10F00627860 /* Stack.swift in Sources */,
 				2546002C275FE40600627860 /* Node.swift in Sources */,
 				254600442767CF7F00627860 /* Reduce.swift in Sources */,
+				2546006D2774F3E300627860 /* MergeSort.swift in Sources */,
 				25460017275FE3EE00627860 /* DocumentBrowserViewController.swift in Sources */,
 				254600392767BCB900627860 /* BinaryNode.swift in Sources */,
 				2546003C2767C00F00627860 /* Map.swift in Sources */,
 				25460015275FE3EE00627860 /* AppDelegate.swift in Sources */,
+				2546005D276F9D8B00627860 /* BubleSorting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
