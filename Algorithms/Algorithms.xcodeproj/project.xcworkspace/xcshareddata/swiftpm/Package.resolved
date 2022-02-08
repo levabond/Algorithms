@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "EventManager",
+        "repositoryURL": "https://github.com/levabond/EventManager",
+        "state": {
+          "branch": "master",
+          "revision": "4d3b4cfac6e2276742648aea37bef549e358fb3c",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
