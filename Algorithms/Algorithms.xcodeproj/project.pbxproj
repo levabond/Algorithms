@@ -27,9 +27,14 @@
 		2546006D2774F3E300627860 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2546006C2774F3E300627860 /* MergeSort.swift */; };
 		25585B7527ACFDD800202D36 /* MaxConsecutiveOnes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25585B7427ACFDD800202D36 /* MaxConsecutiveOnes.swift */; };
 		25585B7727AD036800202D36 /* FindNumberswithEvenNumberofDigits .swift in Sources */ = {isa = PBXBuildFile; fileRef = 25585B7627AD036800202D36 /* FindNumberswithEvenNumberofDigits .swift */; };
+		257D16FC27B2F5A40072CAD9 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257D16FB27B2F5A40072CAD9 /* InsertionSort.swift */; };
+		257D16FE27B37F550072CAD9 /* FindDisappearedNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257D16FD27B37F550072CAD9 /* FindDisappearedNumbers.swift */; };
+		257D170027B38DBA0072CAD9 /* SquaresOfaSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257D16FF27B38DBA0072CAD9 /* SquaresOfaSortedArray.swift */; };
+		257D170227B38E8D0072CAD9 /* HeightChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257D170127B38E8D0072CAD9 /* HeightChecker.swift */; };
 		25835BFA27912DB500607730 /* isNumberPalindrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25835BF927912DB500607730 /* isNumberPalindrom.swift */; };
+		25A910B927B6A3170039DCDA /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A910B827B6A3170039DCDA /* BinarySearch.swift */; };
+		25A910BB27B772EC0039DCDA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 25A910BA27B772EC0039DCDA /* README.md */; };
 		25C54AFA27AEA39B005F4ED6 /* MoveZeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C54AF927AEA39B005F4ED6 /* MoveZeroes.swift */; };
-		25C54AFC27AF8FFA005F4ED6 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C54AFB27AF8FFA005F4ED6 /* InsertionSort.swift */; };
 		25D50A27278AE0CD0086FA8D /* TwoSumm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D50A26278AE0CD0086FA8D /* TwoSumm.swift */; };
 		25D50A2A278AF2F70086FA8D /* Valid Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D50A29278AF2F60086FA8D /* Valid Parentheses.swift */; };
 /* End PBXBuildFile section */
@@ -57,9 +62,14 @@
 		2546006C2774F3E300627860 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		25585B7427ACFDD800202D36 /* MaxConsecutiveOnes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxConsecutiveOnes.swift; sourceTree = "<group>"; };
 		25585B7627AD036800202D36 /* FindNumberswithEvenNumberofDigits .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FindNumberswithEvenNumberofDigits .swift"; sourceTree = "<group>"; };
+		257D16FB27B2F5A40072CAD9 /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
+		257D16FD27B37F550072CAD9 /* FindDisappearedNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDisappearedNumbers.swift; sourceTree = "<group>"; };
+		257D16FF27B38DBA0072CAD9 /* SquaresOfaSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquaresOfaSortedArray.swift; sourceTree = "<group>"; };
+		257D170127B38E8D0072CAD9 /* HeightChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightChecker.swift; sourceTree = "<group>"; };
 		25835BF927912DB500607730 /* isNumberPalindrom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isNumberPalindrom.swift; sourceTree = "<group>"; };
+		25A910B827B6A3170039DCDA /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
+		25A910BA27B772EC0039DCDA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		25C54AF927AEA39B005F4ED6 /* MoveZeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveZeroes.swift; sourceTree = "<group>"; };
-		25C54AFB27AF8FFA005F4ED6 /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
 		25D50A26278AE0CD0086FA8D /* TwoSumm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumm.swift; sourceTree = "<group>"; };
 		25D50A29278AF2F60086FA8D /* Valid Parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Valid Parentheses.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +88,7 @@
 		25460008275FE3EE00627860 = {
 			isa = PBXGroup;
 			children = (
+				25A910BA27B772EC0039DCDA /* README.md */,
 				25460013275FE3EE00627860 /* Algorithms */,
 				25460012275FE3EE00627860 /* Products */,
 			);
@@ -178,7 +189,7 @@
 				2546005C276F9D8B00627860 /* BubleSorting.swift */,
 				2546005E276FAC2E00627860 /* SelectionSort.swift */,
 				2546006C2774F3E300627860 /* MergeSort.swift */,
-				25C54AFB27AF8FFA005F4ED6 /* InsertionSort.swift */,
+				257D16FB27B2F5A40072CAD9 /* InsertionSort.swift */,
 			);
 			path = Sorting;
 			sourceTree = "<group>";
@@ -192,9 +203,18 @@
 			path = Numbers;
 			sourceTree = "<group>";
 		};
+		25A910B727B6A3080039DCDA /* BinarySearch */ = {
+			isa = PBXGroup;
+			children = (
+				25A910B827B6A3170039DCDA /* BinarySearch.swift */,
+			);
+			path = BinarySearch;
+			sourceTree = "<group>";
+		};
 		25D50A25278AE0B50086FA8D /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				25A910B727B6A3080039DCDA /* BinarySearch */,
 				25835BF827912DA200607730 /* Numbers */,
 				25D50A28278AF2BC0086FA8D /* Array */,
 			);
@@ -208,6 +228,9 @@
 				25D50A29278AF2F60086FA8D /* Valid Parentheses.swift */,
 				25585B7427ACFDD800202D36 /* MaxConsecutiveOnes.swift */,
 				25C54AF927AEA39B005F4ED6 /* MoveZeroes.swift */,
+				257D16FD27B37F550072CAD9 /* FindDisappearedNumbers.swift */,
+				257D16FF27B38DBA0072CAD9 /* SquaresOfaSortedArray.swift */,
+				257D170127B38E8D0072CAD9 /* HeightChecker.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -275,6 +298,7 @@
 			files = (
 				25460023275FE3EE00627860 /* LaunchScreen.storyboard in Resources */,
 				25460020275FE3EE00627860 /* Assets.xcassets in Resources */,
+				25A910BB27B772EC0039DCDA /* README.md in Resources */,
 				2546001E275FE3EE00627860 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				257D170027B38DBA0072CAD9 /* SquaresOfaSortedArray.swift in Sources */,
 				25585B7527ACFDD800202D36 /* MaxConsecutiveOnes.swift in Sources */,
 				254600372765260100627860 /* TreeNode.swift in Sources */,
 				2546003F2767C88600627860 /* Heap.swift in Sources */,
@@ -298,14 +323,17 @@
 				25835BFA27912DB500607730 /* isNumberPalindrom.swift in Sources */,
 				254600312764C10F00627860 /* Stack.swift in Sources */,
 				25C54AFA27AEA39B005F4ED6 /* MoveZeroes.swift in Sources */,
+				257D16FE27B37F550072CAD9 /* FindDisappearedNumbers.swift in Sources */,
+				25A910B927B6A3170039DCDA /* BinarySearch.swift in Sources */,
 				2546002C275FE40600627860 /* Node.swift in Sources */,
 				254600442767CF7F00627860 /* Reduce.swift in Sources */,
 				2546006D2774F3E300627860 /* MergeSort.swift in Sources */,
 				25460017275FE3EE00627860 /* DocumentBrowserViewController.swift in Sources */,
+				257D170227B38E8D0072CAD9 /* HeightChecker.swift in Sources */,
 				254600392767BCB900627860 /* BinaryNode.swift in Sources */,
 				2546003C2767C00F00627860 /* Map.swift in Sources */,
 				25460015275FE3EE00627860 /* AppDelegate.swift in Sources */,
-				25C54AFC27AF8FFA005F4ED6 /* InsertionSort.swift in Sources */,
+				257D16FC27B2F5A40072CAD9 /* InsertionSort.swift in Sources */,
 				25D50A27278AE0CD0086FA8D /* TwoSumm.swift in Sources */,
 				2546005D276F9D8B00627860 /* BubleSorting.swift in Sources */,
 			);

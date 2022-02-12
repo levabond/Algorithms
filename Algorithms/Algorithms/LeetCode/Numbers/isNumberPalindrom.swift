@@ -14,11 +14,10 @@ func isPalindrome(_ x: Int) -> Bool {
         return false
     }
     
-    
     while num > 0 {
-        var pop = num % 10
+        let ostatoc = num % 10
         num /= 10
-        reversed = reversed * 10 + pop
+        reversed = reversed * 10 + ostatoc
     }
     
     
