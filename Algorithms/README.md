@@ -6,3 +6,39 @@ LeetCode Online Judge is a website containing many algorithm questions. Most of 
 # Progress
 
 in my plans to solve 1000 tasks to escape from russia
+
+
+# Data Structures
+- Heap
+- Trees
+- Queues
+- Linked List
+- Stack
+
+# Sorting
+- Buble Sorting
+- Selection
+- Merge
+- Insertion
+
+# Hight Order Funtions
+- Map
+- Filter
+- Reduce
+
+# Array
+- Two Summ
+- Valid Parentheses
+- Max Consecutive Ones
+- Move Zeroes
+- Find Disappeared Numbers
+- Square Of A Sorted Array
+- Hieght Checher
+
+
+
+# Numbers
+- is Number Palindrom
+- Find Numbers
+
+
