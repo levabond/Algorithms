@@ -34,6 +34,7 @@
 		25835BFA27912DB500607730 /* isNumberPalindrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25835BF927912DB500607730 /* isNumberPalindrom.swift */; };
 		25A910B927B6A3170039DCDA /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A910B827B6A3170039DCDA /* BinarySearch.swift */; };
 		25A910BB27B772EC0039DCDA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 25A910BA27B772EC0039DCDA /* README.md */; };
+		25A910BD27B8E2110039DCDA /* GuessNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A910BC27B8E2110039DCDA /* GuessNumber.swift */; };
 		25C54AFA27AEA39B005F4ED6 /* MoveZeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C54AF927AEA39B005F4ED6 /* MoveZeroes.swift */; };
 		25D50A27278AE0CD0086FA8D /* TwoSumm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D50A26278AE0CD0086FA8D /* TwoSumm.swift */; };
 		25D50A2A278AF2F70086FA8D /* Valid Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D50A29278AF2F60086FA8D /* Valid Parentheses.swift */; };
@@ -69,6 +70,7 @@
 		25835BF927912DB500607730 /* isNumberPalindrom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isNumberPalindrom.swift; sourceTree = "<group>"; };
 		25A910B827B6A3170039DCDA /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		25A910BA27B772EC0039DCDA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		25A910BC27B8E2110039DCDA /* GuessNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessNumber.swift; sourceTree = "<group>"; };
 		25C54AF927AEA39B005F4ED6 /* MoveZeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveZeroes.swift; sourceTree = "<group>"; };
 		25D50A26278AE0CD0086FA8D /* TwoSumm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumm.swift; sourceTree = "<group>"; };
 		25D50A29278AF2F60086FA8D /* Valid Parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Valid Parentheses.swift"; sourceTree = "<group>"; };
@@ -207,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				25A910B827B6A3170039DCDA /* BinarySearch.swift */,
+				25A910BC27B8E2110039DCDA /* GuessNumber.swift */,
 			);
 			path = BinarySearch;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				254600312764C10F00627860 /* Stack.swift in Sources */,
 				25C54AFA27AEA39B005F4ED6 /* MoveZeroes.swift in Sources */,
 				257D16FE27B37F550072CAD9 /* FindDisappearedNumbers.swift in Sources */,
+				25A910BD27B8E2110039DCDA /* GuessNumber.swift in Sources */,
 				25A910B927B6A3170039DCDA /* BinarySearch.swift in Sources */,
 				2546002C275FE40600627860 /* Node.swift in Sources */,
 				254600442767CF7F00627860 /* Reduce.swift in Sources */,
