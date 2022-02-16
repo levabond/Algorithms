@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		2501CBE327BA166F00812B4B /* FirstBadVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2501CBE227BA166F00812B4B /* FirstBadVersion.swift */; };
 		2501CBE527BB8B8D00812B4B /* FindPeakElement  .swift in Sources */ = {isa = PBXBuildFile; fileRef = 2501CBE427BB8B8D00812B4B /* FindPeakElement  .swift */; };
+		2501CBE727BC3E8B00812B4B /* MergeSortArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2501CBE627BC3E8B00812B4B /* MergeSortArray.swift */; };
+		2501CBE927BCB59300812B4B /* SearchForARange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2501CBE827BCB59300812B4B /* SearchForARange.swift */; };
 		25460015275FE3EE00627860 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25460014275FE3EE00627860 /* AppDelegate.swift */; };
 		25460017275FE3EE00627860 /* DocumentBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25460016275FE3EE00627860 /* DocumentBrowserViewController.swift */; };
 		2546001E275FE3EE00627860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2546001C275FE3EE00627860 /* Main.storyboard */; };
@@ -45,6 +47,8 @@
 /* Begin PBXFileReference section */
 		2501CBE227BA166F00812B4B /* FirstBadVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstBadVersion.swift; sourceTree = "<group>"; };
 		2501CBE427BB8B8D00812B4B /* FindPeakElement  .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FindPeakElement  .swift"; sourceTree = "<group>"; };
+		2501CBE627BC3E8B00812B4B /* MergeSortArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortArray.swift; sourceTree = "<group>"; };
+		2501CBE827BCB59300812B4B /* SearchForARange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchForARange.swift; sourceTree = "<group>"; };
 		25460011275FE3EE00627860 /* Algorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25460014275FE3EE00627860 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25460016275FE3EE00627860 /* DocumentBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentBrowserViewController.swift; sourceTree = "<group>"; };
@@ -216,6 +220,7 @@
 				25A910BC27B8E2110039DCDA /* GuessNumber.swift */,
 				2501CBE227BA166F00812B4B /* FirstBadVersion.swift */,
 				2501CBE427BB8B8D00812B4B /* FindPeakElement  .swift */,
+				2501CBE827BCB59300812B4B /* SearchForARange.swift */,
 			);
 			path = BinarySearch;
 			sourceTree = "<group>";
@@ -240,6 +245,7 @@
 				257D16FD27B37F550072CAD9 /* FindDisappearedNumbers.swift */,
 				257D16FF27B38DBA0072CAD9 /* SquaresOfaSortedArray.swift */,
 				257D170127B38E8D0072CAD9 /* HeightChecker.swift */,
+				2501CBE627BC3E8B00812B4B /* MergeSortArray.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -321,6 +327,7 @@
 			files = (
 				257D170027B38DBA0072CAD9 /* SquaresOfaSortedArray.swift in Sources */,
 				25585B7527ACFDD800202D36 /* MaxConsecutiveOnes.swift in Sources */,
+				2501CBE927BCB59300812B4B /* SearchForARange.swift in Sources */,
 				254600372765260100627860 /* TreeNode.swift in Sources */,
 				2546003F2767C88600627860 /* Heap.swift in Sources */,
 				2546005F276FAC2E00627860 /* SelectionSort.swift in Sources */,
@@ -345,6 +352,7 @@
 				2546003C2767C00F00627860 /* Map.swift in Sources */,
 				2501CBE527BB8B8D00812B4B /* FindPeakElement  .swift in Sources */,
 				25460015275FE3EE00627860 /* AppDelegate.swift in Sources */,
+				2501CBE727BC3E8B00812B4B /* MergeSortArray.swift in Sources */,
 				257D16FC27B2F5A40072CAD9 /* InsertionSort.swift in Sources */,
 				25D50A27278AE0CD0086FA8D /* TwoSumm.swift in Sources */,
 				2546005D276F9D8B00627860 /* BubleSorting.swift in Sources */,
