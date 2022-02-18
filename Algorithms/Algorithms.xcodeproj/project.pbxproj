@@ -11,6 +11,8 @@
 		2501CBE527BB8B8D00812B4B /* FindPeakElement  .swift in Sources */ = {isa = PBXBuildFile; fileRef = 2501CBE427BB8B8D00812B4B /* FindPeakElement  .swift */; };
 		2501CBE727BC3E8B00812B4B /* MergeSortArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2501CBE627BC3E8B00812B4B /* MergeSortArray.swift */; };
 		2501CBE927BCB59300812B4B /* SearchForARange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2501CBE827BCB59300812B4B /* SearchForARange.swift */; };
+		2501CBEC27BD0E8800812B4B /* StrStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2501CBEB27BD0E8800812B4B /* StrStr.swift */; };
+		2501CC1A27C01C9F00812B4B /* Pow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2501CC1927C01C9F00812B4B /* Pow.swift */; };
 		25460015275FE3EE00627860 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25460014275FE3EE00627860 /* AppDelegate.swift */; };
 		25460017275FE3EE00627860 /* DocumentBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25460016275FE3EE00627860 /* DocumentBrowserViewController.swift */; };
 		2546001E275FE3EE00627860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2546001C275FE3EE00627860 /* Main.storyboard */; };
@@ -49,6 +51,8 @@
 		2501CBE427BB8B8D00812B4B /* FindPeakElement  .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FindPeakElement  .swift"; sourceTree = "<group>"; };
 		2501CBE627BC3E8B00812B4B /* MergeSortArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortArray.swift; sourceTree = "<group>"; };
 		2501CBE827BCB59300812B4B /* SearchForARange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchForARange.swift; sourceTree = "<group>"; };
+		2501CBEB27BD0E8800812B4B /* StrStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrStr.swift; sourceTree = "<group>"; };
+		2501CC1927C01C9F00812B4B /* Pow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pow.swift; sourceTree = "<group>"; };
 		25460011275FE3EE00627860 /* Algorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25460014275FE3EE00627860 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25460016275FE3EE00627860 /* DocumentBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentBrowserViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +99,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2501CBEA27BD0E7200812B4B /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				2501CBEB27BD0E8800812B4B /* StrStr.swift */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		2501CC1827C01C9A00812B4B /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				2501CC1927C01C9F00812B4B /* Pow.swift */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
 		25460008275FE3EE00627860 = {
 			isa = PBXGroup;
 			children = (
@@ -228,6 +248,8 @@
 		25D50A25278AE0B50086FA8D /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				2501CC1827C01C9A00812B4B /* Math */,
+				2501CBEA27BD0E7200812B4B /* Strings */,
 				25A910B727B6A3080039DCDA /* BinarySearch */,
 				25835BF827912DA200607730 /* Numbers */,
 				25D50A28278AF2BC0086FA8D /* Array */,
@@ -295,7 +317,6 @@
 			);
 			mainGroup = 25460008275FE3EE00627860;
 			packageReferences = (
-				25B0D5C327ADBC0200F7BE11 /* XCRemoteSwiftPackageReference "EventManager" */,
 			);
 			productRefGroup = 25460012275FE3EE00627860 /* Products */;
 			projectDirPath = "";
@@ -337,6 +358,7 @@
 				2546002E275FE46E00627860 /* LinkedList.swift in Sources */,
 				254600342764C85C00627860 /* Queue.swift in Sources */,
 				25835BFA27912DB500607730 /* isNumberPalindrom.swift in Sources */,
+				2501CC1A27C01C9F00812B4B /* Pow.swift in Sources */,
 				254600312764C10F00627860 /* Stack.swift in Sources */,
 				25C54AFA27AEA39B005F4ED6 /* MoveZeroes.swift in Sources */,
 				2501CBE327BA166F00812B4B /* FirstBadVersion.swift in Sources */,
@@ -350,6 +372,7 @@
 				257D170227B38E8D0072CAD9 /* HeightChecker.swift in Sources */,
 				254600392767BCB900627860 /* BinaryNode.swift in Sources */,
 				2546003C2767C00F00627860 /* Map.swift in Sources */,
+				2501CBEC27BD0E8800812B4B /* StrStr.swift in Sources */,
 				2501CBE527BB8B8D00812B4B /* FindPeakElement  .swift in Sources */,
 				25460015275FE3EE00627860 /* AppDelegate.swift in Sources */,
 				2501CBE727BC3E8B00812B4B /* MergeSortArray.swift in Sources */,
@@ -575,17 +598,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		25B0D5C327ADBC0200F7BE11 /* XCRemoteSwiftPackageReference "EventManager" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/levabond/EventManager";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 25460009275FE3EE00627860 /* Project object */;
 }
