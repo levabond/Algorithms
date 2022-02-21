@@ -13,6 +13,7 @@
 		2501CBE927BCB59300812B4B /* SearchForARange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2501CBE827BCB59300812B4B /* SearchForARange.swift */; };
 		2501CBEC27BD0E8800812B4B /* StrStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2501CBEB27BD0E8800812B4B /* StrStr.swift */; };
 		2501CC1A27C01C9F00812B4B /* Pow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2501CC1927C01C9F00812B4B /* Pow.swift */; };
+		2501CC6B27C0DB2D00812B4B /* IsPerfectSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2501CC6A27C0DB2D00812B4B /* IsPerfectSquare.swift */; };
 		25460015275FE3EE00627860 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25460014275FE3EE00627860 /* AppDelegate.swift */; };
 		25460017275FE3EE00627860 /* DocumentBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25460016275FE3EE00627860 /* DocumentBrowserViewController.swift */; };
 		2546001E275FE3EE00627860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2546001C275FE3EE00627860 /* Main.storyboard */; };
@@ -53,6 +54,7 @@
 		2501CBE827BCB59300812B4B /* SearchForARange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchForARange.swift; sourceTree = "<group>"; };
 		2501CBEB27BD0E8800812B4B /* StrStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrStr.swift; sourceTree = "<group>"; };
 		2501CC1927C01C9F00812B4B /* Pow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pow.swift; sourceTree = "<group>"; };
+		2501CC6A27C0DB2D00812B4B /* IsPerfectSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsPerfectSquare.swift; sourceTree = "<group>"; };
 		25460011275FE3EE00627860 /* Algorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25460014275FE3EE00627860 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25460016275FE3EE00627860 /* DocumentBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentBrowserViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				2501CC1927C01C9F00812B4B /* Pow.swift */,
+				2501CC6A27C0DB2D00812B4B /* IsPerfectSquare.swift */,
 			);
 			path = Math;
 			sourceTree = "<group>";
@@ -358,6 +361,7 @@
 				2546002E275FE46E00627860 /* LinkedList.swift in Sources */,
 				254600342764C85C00627860 /* Queue.swift in Sources */,
 				25835BFA27912DB500607730 /* isNumberPalindrom.swift in Sources */,
+				2501CC6B27C0DB2D00812B4B /* IsPerfectSquare.swift in Sources */,
 				2501CC1A27C01C9F00812B4B /* Pow.swift in Sources */,
 				254600312764C10F00627860 /* Stack.swift in Sources */,
 				25C54AFA27AEA39B005F4ED6 /* MoveZeroes.swift in Sources */,
