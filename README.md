@@ -32,10 +32,6 @@ in my plans to solve 1000 tasks to escape from russia
 - Square Of A Sorted Array
 - Hieght Checher
 
-# Binary Search
-- Sqrt
-- Guess Number
-- First Bad Version
 
 # Numbers
 - is Number Palindrom
