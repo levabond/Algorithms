@@ -1,6 +1,13 @@
 # Частые алгоритмы и задачи на языке Swift
 
 Здесь собраны задачи и решения по алгоритмам. Их цель — улучшить техники и сформировать насмотренность для решения алгоритмических задач.
+Материал наполняется сообществом https://boosty.to/lionbond. Больше задач, техник и других уникальных материалов там.
+
+Основные источники:
+- https://leetcode.com/
+- https://coderun.yandex.ru/
+- https://www.hackerrank.com/
+- Собесы
 
 Весь материал разделен по темам:
 
@@ -21,8 +28,3 @@
 - [Группировка анаграмъ](https://github.com/levabond/Algorithms/blob/main/Strings/%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0%20%D0%B0%D0%BD%D0%B0%D0%B3%D1%80%D0%B0%D0%BC.md)
 - [Поиск палиндрома](https://github.com/levabond/Algorithms/blob/main/Strings/%D0%9F%D0%BE%D0%B8%D1%81%D0%BA%20%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0.md)
 
-
-
-Материал наполняется сообществом https://boosty.to/lionbond
-
-Больше задач, техник и других уникальных материалов там.
